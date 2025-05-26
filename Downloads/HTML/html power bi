@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Informe de Power BI Incrustado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 900px; /* Ancho máximo para el contenedor, puedes ajustarlo */
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-sizing: border-box; /* Incluir padding y border en el ancho total */
+        }
+        iframe {
+            width: 100%; /* El iframe tomará el 100% del ancho de su contenedor */
+            height: 600px; /* Altura fija, puedes ajustarla */
+            border: none; /* Elimina el borde del iframe */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Bienvenido a mi informe de Power BI!</h1>
+        <p>Aquí puedes ver el informe interactivo de Power BI que he publicado:</p>
+
+        <iframe title="Trabajo Final" width="100%" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMzA5ODAyNWYtZjY3Ny00ODU0LTg5ZmItNTdmZjUzNGM1MjEwIiwidCI6IjhkMzY4MzZlLTZiNzUtNGRlNi1iYWI5LTVmNGIxNzc1NDI3ZiIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+
+        <p>Este informe es completamente interactivo y se muestra directamente desde Power BI.</p>
+    </div>
+</body>
+</html>
